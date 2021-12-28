@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;  
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-size: clamp(1em,1em + 1vw, 1em);
+    margin: 0%;
+    text-align: justify;
+    background-color: rgb(82, 124, 98);
+}
+
+header {
+    text-align: center;
+    padding: 3px;
+    height: 200px;
+    background-image: linear-gradient( rgb(155, 226, 155), rgb(85, 146, 85));
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.459);
+}
+
+main {
+    min-width: 320px;
+    max-width: 800px;
+    padding: 1%;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.459);
+    margin: auto;
+}
+
+
+h1, h2 {
+    padding: 3px;
+    color: rgb(32, 80, 32);
+    font-family: 'idroid';
+    text-align: left;
+}
+
+h2 {
+    background-color: rgb(182, 247, 108);
+}
+
+.imagem {
+    width: 100%;
+}
+
+a { 
+    color: rgb(32, 80, 32); 
+    text-decoration: none;    
+}
+
+.ls {
+    margin: 0%;
+    background-color: rgb(155, 226, 155);
+    color: rgb(32, 80, 32); 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(17, 27, 5);
+}
+
+.nomesite {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.459);
+    margin: 0%;
+    padding: 10px;
+    padding-top: 2%;
+}
+
+aside {
+    min-width: 320px;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.459);
+    margin: auto;
+}
+
+.classe {
+    margin: 0%;
+    padding: 10px;
+    text-align:center;
+    margin-top: 2%;
+}
+
+.cabecalho {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.rodape {
+    margin: 0px;
+    width: 800px;
+    padding: 1%;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.459);
+    margin: auto;
+}
+
+.rodape2 {
+    padding: 1px;
+    margin: 0px;
+    background-color: rgb(157, 211, 178);
+}
+
+.lista {
+    display: inline-block;
+    margin: 0px;
+    border: 0px;
+}
+
+.lista2 {
+    display: inline-block;
+    margin: 0px;
+    width: auto;
+}
+
+.credito {
+    text-align: center;
+    margin: 0px;
+    background-image: linear-gradient( rgb(155, 226, 155), rgb(85, 146, 85));
+}
+
+h3 {
+    border-radius: 15px 15px 0px 0px;
+    margin: 0px;
+    width: 792px;
+    color: white;
+    padding: 3px;
+    background-color: rgb(155, 226, 155);
+}
+
+.pr {
+    background-color: white;
+    margin: 0%;
+}
+
+.mais {
+    padding: 2px;
+    border-radius: 15px;
+    background-color: rgb(157, 211, 178);
+}
